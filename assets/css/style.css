@@ -16,7 +16,7 @@ body {
  }
 
 .siteContent-g3w9OP {
-  display: block;
+  display: flex;
   align-items: center;
   justify-content: center;
   -webkit-box-align: center;
