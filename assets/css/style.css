@@ -17,6 +17,7 @@ body {
 
 .siteContent-g3w9OP {
   display: flex;
+  position: fixed;
   width: auto;
   align-items: center;
   justify-content: center;
