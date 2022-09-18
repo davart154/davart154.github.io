@@ -18,12 +18,14 @@ body {
  }
 
 .bgOverlay {
+  position: absolute;
   background-image: url("/assets/img/bg%20overlay.png") 0 0 repeat;
 }
 
 .siteContent-g3w9OP {
   position: absolute;
-  width: fit-content;
+  width: auto;
+  justify-self: center;
   align-items: center;
   justify-content: center;
   text-align: center;
