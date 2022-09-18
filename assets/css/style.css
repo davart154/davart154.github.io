@@ -25,14 +25,14 @@ body {
 }
 
 .logo-83fjie {
+  width: 88px;
+  height: 88px;
   align-items: center;
 }
 
 .logoGithub-C00137 {
   background-image: url("/assets/img/githubLogo.svg");
   background-size: 88px 88px;
-  width: 88px;
-  height: 88px;
 }
 
 .messageHeader-F832mj, .messageDescription-4JnfGa {
