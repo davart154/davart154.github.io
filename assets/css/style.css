@@ -18,13 +18,15 @@ body {
  }
 
 .siteContent-g3w9OP {
-  position: absolute;
+  position: fixed;
   align-items: center;
   justify-content: center;
   text-align: center;
 }
 
 .logo-83fjie {
+  width: 88px;
+  height: 88px
   align-items: center;
 }
 
