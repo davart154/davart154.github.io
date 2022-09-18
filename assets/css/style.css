@@ -9,13 +9,18 @@ body {
 }
 
 .appMount-JI2eIf {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   background-image: url("/assets/img/overlay.png");
  }
+
+.app-NSfie2 {
+  position: relative;
+  height: 100%;
+}
 
 .logo-83fjie {
   width: 88px;
