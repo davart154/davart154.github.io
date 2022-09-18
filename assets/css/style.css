@@ -14,7 +14,7 @@ body {
   left: 0;
   bottom: 0;
   right: 0;
-  background-image: url("/assets/img/overlay.png") 0 0 repeat;
+  background-image: url("/assets/img/overlay.png");
  }
 
 .logo-83fjie {
