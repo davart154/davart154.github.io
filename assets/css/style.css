@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 
-.appMount-JI2eIf {
+#app-mount.appMount-JI2eIf {
   position: fixed;
   width: 100%;
   height: 100%;
