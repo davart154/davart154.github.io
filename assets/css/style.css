@@ -19,6 +19,10 @@ body {
 
 .bgOverlay {
   position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
   background-image: url("/assets/img/bg%20overlay.png") 0 0 repeat;
 }
 
