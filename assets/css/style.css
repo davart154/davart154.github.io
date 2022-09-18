@@ -14,17 +14,8 @@ body {
   left: 0;
   bottom: 0;
   right: 0;
-  background-color: var(--background-tertiary);
- }
-
-.bgOverlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
   background-image: url("/assets/img/bg%20overlay.png") 0 0 repeat;
-}
+ }
 
 .siteContent-g3w9OP {
   position: absolute;
@@ -36,7 +27,7 @@ body {
 }
 
 .logo-83fjie {
-  align-items: center;
+  
 }
 
 .logoGithub-C00137 {
