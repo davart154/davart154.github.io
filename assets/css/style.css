@@ -27,13 +27,14 @@ body {
 }
 
 .logo-83fjie {
-  
+  width: 88px;
+  height: 88px;
 }
 
 .logoGithub-C00137 {
   background-image: url("/assets/img/githubLogo.svg");
-  width: 88px;
-  height: 88px;
+  width: inherit;
+  height: inherit;
   background-size: 88px 88px;
 }
 
