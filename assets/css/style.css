@@ -15,9 +15,11 @@ body {
   bottom: 0;
   right: 0;
   background-image: url("/assets/img/overlay.png");
+  vertical-align: baseline;
  }
 
 .app-NSfie2 {
+  display: unset;
   position: relative;
   height: 100%;
 }
