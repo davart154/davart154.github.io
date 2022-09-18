@@ -19,20 +19,21 @@ body {
  }
 
 .app-NSfie2 {
-  display: unset;
+  display: inline-block;
   position: relative;
   height: 100%;
 }
 
 .logo-83fjie {
-  width: 88px;
-  height: 88px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 96px;
 }
 
 .logoGithub-C00137 {
   background-image: url("/assets/img/githubLogo.svg");
-  width: inherit;
-  height: inherit;
+  width: 88px;
+  height: 88px;
   background-size: 88px 88px;
 }
 
