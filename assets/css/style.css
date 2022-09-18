@@ -9,7 +9,7 @@ body {
 }
 
 .appMount-JI2eIf {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   bottom: 0;
@@ -18,11 +18,6 @@ body {
  }
 
 .siteContent-g3w9OP {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
   align-items: center;
   justify-content: center;
 }
