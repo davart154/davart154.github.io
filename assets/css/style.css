@@ -9,22 +9,13 @@ body {
 }
 
 .appMount-JI2eIf {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   background-image: url("/assets/img/bg%20overlay.png") 0 0 repeat;
  }
-
-.siteContent-g3w9OP {
-  position: absolute;
-  width: auto;
-  justify-self: center;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
 
 .logo-83fjie {
   width: 88px;
