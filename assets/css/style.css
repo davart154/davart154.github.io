@@ -19,14 +19,16 @@ body {
  }
 
 .app-NSfie2 {
-  display: inline-block;
   position: relative;
   height: 100%;
 }
 
-.logo-83fjie {
+.info-SI67nD {
   display: flex;
   align-items: center;
+}
+
+.logo-83fjie {
   margin-bottom: 96px;
 }
 
