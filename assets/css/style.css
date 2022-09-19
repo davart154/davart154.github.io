@@ -15,7 +15,6 @@ body {
   bottom: 0;
   right: 0;
   background-image: url("/assets/img/overlay.png");
-  vertical-align: baseline;
  }
 
 .app-NSfie2 {
@@ -25,7 +24,7 @@ body {
 
 .info-SI67nD {
   display: flex;
-  align-items: center;
+  justify-content: center;
 }
 
 .logo-83fjie {
