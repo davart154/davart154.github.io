@@ -18,13 +18,9 @@ body {
  }
 
 .app-NSfie2 {
-  display: unset;
-  position: relative;
-  height: 100%;
-}
-
-.info-SI67nD {
   display: flex;
+  position: fixed;
+  height: 100%;
   justify-content: center;
 }
 
