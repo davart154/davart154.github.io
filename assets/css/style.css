@@ -1,1 +1,50 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  
+  --text-normal: #dcddde;
+  --text-muted: #a3a6aa;
+  --background-tertiary: #282b30;
+}
 
+.appMount-JI2eIf {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-image: url("/assets/img/overlay.png");
+ }
+
+.app-NSfie2 {
+  display: flex;
+  position: fixed;
+  height: 100%;
+  justify-content: center;
+}
+
+.logo-83fjie {
+  margin-bottom: 96px;
+}
+
+.logoGithub-C00137 {
+  background-image: url("/assets/img/githubLogo.svg");
+  width: 88px;
+  height: 88px;
+  background-size: 88px 88px;
+}
+
+.messageHeader-F832mj, .messageDescription-4JnfGa {
+  text-align: center;
+}
+
+.messageHeader-F832mj {
+  color: var(--text-normal);
+  font-size: 18px;
+}
+
+.messageDescription-4JnfGa {
+  color: var(--text-muted);
+  font-size: 16px;
+}
