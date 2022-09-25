@@ -25,6 +25,7 @@
 }
 
 body {
+  font-family: Whitney;
   height: 100%;
   width: 100%;
   margin: 0;
@@ -36,16 +37,29 @@ body {
 
 .appMount-JI2eIf {
   display: flex;
-  flex-direction: column;
   position: fixed;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
-  background-image: url("/assets/img/overlay.png");
+  background-image: url("overlay.png");
+  background-repeat: repeat;
+  animation: backgroundPatternShiftH 15s linear infinite, backgroundPatternShiftV 45s linear infinite;
   align-items: center;
- }
+}
 
+.appInner-Ge7j83 {  
+  position: absolute;
+  right: 0;
+  left: 0;
+}
+
+.info-7B8jeF {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
 
 .logo-83fjie {
   margin-bottom: 96px;
@@ -53,10 +67,20 @@ body {
 }
 
 .logoGithub-C00137 {
-  background-image: url("/assets/img/githubLogo.svg");
+  background-image: url("git.svg");
   width: 88px;
   height: 88px;
   background-size: 88px 88px;
+  transition: .2s ease-out;
+  cursor: pointer;
+}
+.logoGithub-C00137:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 4px #000);
+}
+.logoGithub-C00137:active {
+  transform: scale(1.1) translateY(4px);
+  filter: drop-shadow(0 0 4px #000);
 }
 
 .messageHeader-F832mj, .messageDescription-4JnfGa {
@@ -66,9 +90,29 @@ body {
 .messageHeader-F832mj {
   color: var(--text-normal);
   font-size: 18px;
+  font-weight: 400;
+}
+
+.messageHeader-F832mj strong,
+.messageDescription-4JnfGa strong {
+  font-weight: 700;
 }
 
 .messageDescription-4JnfGa {
   color: var(--text-muted);
   font-size: 16px;
+  padding-top: 16px;
+  font-weight: 400;
+}
+
+@keyframes backgroundPatternShiftH {
+  100% {
+    background-position-x: 470px;
+  }
+}
+
+@keyframes backgroundPatternShiftV {
+  100% {
+    background-position-y: 370px;
+  }
 }
